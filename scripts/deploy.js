@@ -3,15 +3,15 @@ const main = async () => {
   const gameContract = await gameContractFactory.deploy(
     ["Gandalf", "Eowyn", "Tom Bombadil"], // Names
     [
-      "https://i1.sndcdn.com/avatars-2AI10Rs3s1EneWOl-317StQ-t500x500.jpg", // Images
-      "https://static.wikia.nocookie.net/lotr/images/0/02/%C3%89owyn_of_Rohan_%2860%29.jpg",
-      "https://static.wikia.nocookie.net/lotr/images/1/19/1-TomBombadil.jpg",
+      "QmWGxiHZnTqQXB5rqVeEs32SutTjMdDokR7DXCcnJNCJjH", // Images
+      "Qmaf4E6k1hYJtFF3Kc9ebqCkHDhzfFdWJj3tpr116eNzdb",
+      "Qmapaagg8h7gRdpKdE3kV8dyDpoy3TvauAsi4AAnh68RRG",
     ],
     [750, 475, 9001], // HP values
     [245, 220, 70], // Attack damage values
     [450, 0, 1000], // Magic power values
     "Witch-king of Angmar", // Boss name
-    "https://static.wikia.nocookie.net/lotr/images/6/6e/Witch_King.png", // Boss image
+    "QmZguSei4sHVU7YycjkK1MyavhZpemto4uQQT2pi3KKZZT", // Boss image
     10000, // Boss hp
     70, // Boss attack damage
     40 // Boss magic power
